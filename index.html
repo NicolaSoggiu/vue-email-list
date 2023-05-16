@@ -15,7 +15,12 @@
   </head>
   <body>
     <div id="app">
-      <div>{{ email }}</div>
+      <div class="app">
+        <h1>Email List :</h1>
+        <ul>
+          <li v-for="contact in emailList">{{ contact }}</li>
+        </ul>
+      </div>
     </div>
   </body>
 </html>
