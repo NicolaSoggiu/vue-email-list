@@ -19,3 +19,5 @@ li {
     text-decoration: underline;
     padding: .5rem;
 }
+
+[v-cloak] { display:none; }
