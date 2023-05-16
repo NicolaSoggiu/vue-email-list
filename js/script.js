@@ -13,7 +13,7 @@ const app = Vue.createApp({
         });
     },
   },
-  mounted() {
+  created() {
     for (let i = 0; i < 10; i++) {
       this.takeEmailRandom();
     }
